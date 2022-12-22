@@ -1,0 +1,6 @@
+* Logitech Webcam LED Control
+Simple program to control Logitech webcam LED.
+
+Use ~./logitech_ctrl -g /dev/video0~ to query LED status.
+
+Use ~./logitech_ctrl -s on /dev/video0~ to enable LED on recording, or ~./logitech_ctrl -s off /dev/video0~ for spy mode!
